@@ -57,7 +57,7 @@ answers[2] = prompt("Как ваше отчество?", ""); */
 /* const category = 'toys';
 console.log(`https://someurl.com/${category}/5`);
 const user = 'Ivan';
-console.log(`Привет, ${user}`); */
+console.log(`Привет, ${user}`);
 let incr = 10,
     decr = 10;
 //incr++;
@@ -68,3 +68,10 @@ console.log(decr--);
 
 console.log(++incr); //префиксная форма сразу меняет значение и выводит его
 console.log(--decr);
+
+console.log(2*4 === "8"); */
+
+
+
+
+
