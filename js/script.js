@@ -73,5 +73,23 @@ console.log(2*4 === "8"); */
 
 
 
+let numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?");
+let personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+
+for (let i = 0; i < 4; i++) {
+    let film = prompt("Один из последних просмотренных фильмов?","Название фильма");
+    let rating = prompt("На сколько оцените его?","8.2");
+    personalMovieDB.movies[film] = rating;
+}
+console.log(personalMovieDB.movies);
+
+
+
 
 
